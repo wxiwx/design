@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Головна — Портфоліо</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body class="container py-4">
     <header class="mb-4">
-        <h1 class="text-primary">Welcome</h1>
+        <h1 class="text-primary">Вітаю!</h1>
         <nav class="navbar navbar-expand">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
@@ -18,30 +18,26 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <article class="card p-3 mb-3">
-            <h2>Main Article</h2>
-            <p>Here is some text explaining the website purpose.</p>
-            <ul>
-                <li>Item one</li>
-                <li>Item two</li>
-            </ul>
-            <ol>
-                <li>Step one</li>
-                <li>Step two</li>
-            </ol>
-            <figure>
-                <blockquote class="blockquote">
-                    <p>A well-known quote or description.</p>
-                </blockquote>
-            </figure>
-            <hr>
-            <button class="btn btn-dark" onclick="alert('Hello!')">Click Me</button>
-        </article>
+
+    <main class="p-5 bg-light rounded-3 shadow-sm">
+        <div class="container-fluid py-3">
+            <h2 class="display-6 fw-bold mb-3">Радий бачити вас на моєму сайті</h2>
+            <p class="col-md-8 fs-5 text-secondary">
+                Тут зібрані мої навчальні та дослідницькі презентації, проєкти й творчі роботи. 
+                Цей сайт створено для зручного перегляду матеріалів у високій якості.
+            </p>
+            <hr class="my-4">
+            <p class="fs-6 text-muted mb-4">
+                Переходьте у вкладку «Projects», щоб ознайомитися з презентаціями. Приємного перегляду! 🚀
+            </p>
+            <a href="projects.html" class="btn btn-primary btn-lg">Перейти до проєктів</a>
+        </div>
     </main>
-    <footer class="text-muted mt-5">
-        <small>&copy; 2026</small>
+
+    <footer class="text-center mt-5 text-muted">
+        <small>© 2026</small>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
